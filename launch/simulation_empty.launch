@@ -2,4 +2,5 @@
     <arg name="TURTLEBOT3_MODEL" value="burger" />
     <include file="$(find turtlebot3_gazebo)/launch/turtlebot3_empty_world.launch">
     </include>
+    <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher"></node>
 </launch>

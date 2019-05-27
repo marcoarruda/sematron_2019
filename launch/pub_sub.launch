@@ -1,0 +1,5 @@
+<launch>
+    <node name="my_1st_node" pkg="sematron" type="my_1st_node.py"></node>
+    <node name="publisher" pkg="sematron" type="publisher.py" output="screen" />
+    <node name="subscriber" pkg="sematron" type="subscriber.py" output="screen" />
+</launch>
